@@ -31,6 +31,9 @@
         "uio.h": "c",
         "un.h": "c",
         "netdb.h": "c",
-        "cstring": "c"
+        "cstring": "c",
+        "list": "c",
+        "stdio.h": "c",
+        "stdarg.h": "c"
     },
 }
