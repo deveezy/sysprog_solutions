@@ -1,7 +1,229 @@
-300
-
-200
-
-111
-
-Finished
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 173600  6064 ?        Ss   Jun12   0:03 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    Jun12   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Jun12   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Jun12   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kworker/0:0H-events_highpri]
+root           8  0.0  0.0      0     0 ?        I<   Jun12   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcu_tasks_kthre]
+root          10  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    Jun12   0:25 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcuc/0]
+root          14  0.0  0.0      0     0 ?        I    Jun12   1:18 [rcu_preempt]
+root          15  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcub/0]
+root          16  0.0  0.0      0     0 ?        S    Jun12   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    Jun12   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    Jun12   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    Jun12   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    Jun12   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    Jun12   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcuc/1]
+root          24  0.0  0.0      0     0 ?        S    Jun12   0:10 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    Jun12   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    Jun12   0:00 [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    Jun12   0:00 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcuc/2]
+root          31  0.0  0.0      0     0 ?        S    Jun12   0:10 [ksoftirqd/2]
+root          33  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kworker/2:0H-events_highpri]
+root          34  0.0  0.0      0     0 ?        S    Jun12   0:00 [cpuhp/3]
+root          35  0.0  0.0      0     0 ?        S    Jun12   0:00 [idle_inject/3]
+root          36  0.0  0.0      0     0 ?        S    Jun12   0:00 [migration/3]
+root          37  0.0  0.0      0     0 ?        S    Jun12   0:00 [rcuc/3]
+root          38  0.0  0.0      0     0 ?        S    Jun12   0:09 [ksoftirqd/3]
+root          40  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kworker/3:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    Jun12   0:00 [kdevtmpfs]
+root          42  0.0  0.0      0     0 ?        I<   Jun12   0:00 [netns]
+root          43  0.0  0.0      0     0 ?        I<   Jun12   0:00 [inet_frag_wq]
+root          44  0.0  0.0      0     0 ?        S    Jun12   0:00 [kauditd]
+root          45  0.0  0.0      0     0 ?        S    Jun12   0:00 [khungtaskd]
+root          46  0.0  0.0      0     0 ?        S    Jun12   0:00 [oom_reaper]
+root          47  0.0  0.0      0     0 ?        I<   Jun12   0:00 [writeback]
+root          48  0.0  0.0      0     0 ?        S    Jun12   1:33 [kcompactd0]
+root          49  0.0  0.0      0     0 ?        SN   Jun12   0:00 [ksmd]
+root          50  0.0  0.0      0     0 ?        SN   Jun12   0:00 [khugepaged]
+root          70  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kintegrityd]
+root          71  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kblockd]
+root          72  0.0  0.0      0     0 ?        I<   Jun12   0:00 [blkcg_punt_bio]
+root          74  0.0  0.0      0     0 ?        I<   Jun12   0:00 [ata_sff]
+root          75  0.0  0.0      0     0 ?        I<   Jun12   0:00 [edac-poller]
+root          76  0.0  0.0      0     0 ?        I<   Jun12   0:00 [devfreq_wq]
+root          77  0.0  0.0      0     0 ?        S    Jun12   0:00 [watchdogd]
+root          79  0.0  0.0      0     0 ?        I<   Jun12   0:10 [kworker/2:1H-events_highpri]
+root          80  0.0  0.0      0     0 ?        S    Jun12   0:52 [kswapd0]
+root          82  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kthrotld]
+root          83  0.0  0.0      0     0 ?        S    Jun12   0:00 [irq/122-aerdrv]
+root          85  0.0  0.0      0     0 ?        I<   Jun12   0:00 [acpi_thermal_pm]
+root          86  0.0  0.0      0     0 ?        I<   Jun12   0:00 [nvme-wq]
+root          87  0.0  0.0      0     0 ?        I<   Jun12   0:00 [nvme-reset-wq]
+root          88  0.0  0.0      0     0 ?        I<   Jun12   0:00 [nvme-delete-wq]
+root          89  0.0  0.0      0     0 ?        S    Jun12   0:00 [scsi_eh_0]
+root          90  0.0  0.0      0     0 ?        I<   Jun12   0:00 [scsi_tmf_0]
+root          91  0.0  0.0      0     0 ?        S    Jun12   0:00 [scsi_eh_1]
+root          92  0.0  0.0      0     0 ?        I<   Jun12   0:00 [scsi_tmf_1]
+root          97  0.0  0.0      0     0 ?        I<   Jun12   0:00 [ipv6_addrconf]
+root         106  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kstrp]
+root         111  0.0  0.0      0     0 ?        I<   Jun12   0:00 [zswap1]
+root         112  0.0  0.0      0     0 ?        I<   Jun12   0:00 [zswap1]
+root         113  0.0  0.0      0     0 ?        I<   Jun12   0:00 [zswap-shrink]
+root         115  0.0  0.0      0     0 ?        I<   Jun12   0:00 [charger_manager]
+root         128  0.0  0.0      0     0 ?        I<   Jun12   0:10 [kworker/0:1H-events_highpri]
+root         153  0.0  0.0      0     0 ?        I<   Jun12   0:10 [kworker/3:1H-events_highpri]
+root         165  0.0  0.0      0     0 ?        S    Jun12   0:01 [jbd2/sda6-8]
+root         166  0.0  0.0      0     0 ?        I<   Jun12   0:00 [ext4-rsv-conver]
+root         168  0.0  0.0      0     0 ?        I<   Jun12   0:11 [kworker/1:1H-events_highpri]
+root         198  0.0  0.1  88164  8736 ?        Ss   Jun12   0:03 /usr/lib/systemd/systemd-journald
+root         214  0.0  0.0  29872  3888 ?        Ss   Jun12   0:01 /usr/lib/systemd/systemd-udevd
+root         244  0.0  0.0      0     0 ?        I<   Jun12   0:00 [asus_wireless_w]
+root         246  0.0  0.0      0     0 ?        I<   Jun12   0:00 [tpm_dev_wq]
+root         266  0.0  0.0      0     0 ?        S    Jun12   0:21 [jbd2/sda7-8]
+root         267  0.0  0.0      0     0 ?        I<   Jun12   0:00 [ext4-rsv-conver]
+root         268  0.0  0.0      0     0 ?        S    Jun12   0:46 [irq/109-FTE1001]
+systemd+     275  0.0  0.0  89972  3248 ?        Ssl  Jun12   0:00 /usr/lib/systemd/systemd-timesyncd
+root         280  0.0  0.0      0     0 ?        I<   Jun12   0:00 [led_workqueue]
+dbus         292  0.0  0.0  12852  3536 ?        Ss   Jun12   0:10 /usr/bin/dbus-daemon --system --address=systemd: --nofor
+root         293  0.0  0.1 405560  8124 ?        Ssl  Jun12   0:35 /usr/bin/NetworkManager --no-daemon
+root         296  0.0  0.0 178896  2900 ?        Ss   Jun12   0:00 /usr/lib/systemd/systemd-logind
+root         300  0.0  0.0      0     0 ?        I<   Jun12   0:00 [cryptd]
+root         334  0.0  0.0      0     0 ?        I<   Jun12   0:00 [cfg80211]
+root         363  0.0  0.0      0     0 ?        I<   Jun12   0:00 [kmemstick]
+root         375  0.0  0.0      0     0 ?        S    Jun12   0:00 [card0-crtc0]
+root         376  0.0  0.0      0     0 ?        S    Jun12   0:00 [card0-crtc1]
+root         377  0.0  0.0      0     0 ?        S    Jun12   0:00 [card0-crtc2]
+root         398  0.0  0.0  15252  4352 ?        Ss   Jun12   0:04 /usr/bin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         421  0.0  0.0  17156  2436 ?        Ss   Jun12   0:00 /usr/bin/python3 -u -m optimus_manager.daemon
+root         422  0.0  0.0 309696  3156 ?        SLsl Jun12   0:00 /usr/bin/lightdm
+rtkit        576  0.0  0.0 154076  2276 ?        SNsl Jun12   0:01 /usr/lib/rtkit-daemon
+polkitd      579  0.0  0.0 2647292 4968 ?        Ssl  Jun12   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         691  0.0  0.0      0     0 ?        S    Jun12   0:00 [nv_queue]
+root         692  0.0  0.0      0     0 ?        S    Jun12   0:00 [nv_queue]
+root         697  0.0  0.0      0     0 ?        S    Jun12   0:00 [nvidia-modeset/]
+root         698  0.0  0.0      0     0 ?        S    Jun12   0:00 [nvidia-modeset/]
+root         699  0.2  0.0      0     0 ?        S    Jun12  11:14 [irq/131-nvidia]
+root         701  0.0  0.0      0     0 ?        S    Jun12   3:15 [nv_queue]
+root         705  2.9  1.1 7099148 65824 tty7    Ssl+ Jun12 111:31 /usr/lib/Xorg :0 -seat seat0 -auth /run/lightdm/root/:0 
+root         754  0.0  0.0 165404  3276 ?        Sl   Jun12   0:00 lightdm --session-child 14 21
+tlt          765  0.0  0.0  16260  1044 ?        Ss   Jun12   0:00 /usr/lib/systemd/systemd --user
+tlt          766  0.0  0.0 168880   604 ?        S    Jun12   0:00 (sd-pam)
+tlt          772  0.0  0.1 169872  7008 ?        Ss   Jun12   0:27 i3
+tlt          776  0.0  0.0  12220  3116 ?        Ss   Jun12   0:25 /usr/bin/dbus-daemon --session --address=systemd: --nofo
+tlt          797  0.4  0.0 1432656 4220 ?        Sl   Jun12  18:11 polybar example
+tlt          803  0.7  0.1 1284812 7816 ?        Ssl  Jun12  27:14 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+tlt          806  0.0  0.0 237244  3852 ?        Sl   Jun12   0:00 /usr/lib/pulse/gsettings-helper
+tlt         1099  0.0  0.0   7260  1228 ?        S    Jun13   0:00 /bin/bash
+tlt         1102  5.7  7.1 3485084 426864 ?      Sl   Jun13 185:28 /usr/lib/firefox/firefox
+tlt         1129  0.0  0.0 307992  4128 ?        Ssl  Jun13   0:00 /usr/lib/at-spi-bus-launcher
+tlt         1233  1.3  2.9 28193816 174340 ?     Sl   Jun13  43:50 /usr/lib/firefox/firefox -contentproc -childID 2 -isForB
+tlt         1267  0.0  1.5 2479524 89504 ?       Sl   Jun13   0:55 /usr/lib/firefox/firefox -contentproc -childID 3 -isForB
+tlt         1314  0.3  2.1 3089364 125800 ?      Sl   Jun13  11:48 /usr/lib/firefox/firefox -contentproc -childID 4 -isForB
+tlt         1402  0.5  2.9 2707292 178576 ?      Sl   Jun13  17:24 /usr/lib/firefox/firefox -contentproc -childID 5 -isForB
+tlt         1441  4.6  0.4 396716 28864 ?        Sl   Jun13 151:52 /usr/lib/firefox/firefox -contentproc -parentBuildID 202
+tlt         1596  3.1  3.1 3411524 189052 ?      Sl   Jun13 100:38 /usr/lib/firefox/firefox -contentproc -childID 7 -isForB
+tlt         1810  1.8  3.5 3153104 214144 ?      Sl   Jun13  59:57 /usr/lib/firefox/firefox -contentproc -childID 8 -isForB
+tlt         2231  0.2  0.3 574316 23268 ?        Sl   Jun13   6:29 alacritty
+tlt         2236  0.0  0.0   8396  1996 pts/0    Ss   Jun13   0:00 /bin/bash
+tlt         2284  0.0  0.0 162312  3068 pts/0    S+   Jun13   0:01 fish
+tlt         3757  4.8  4.5 3266168 269844 ?      Sl   Jun13 156:32 /usr/lib/firefox/firefox -contentproc -childID 12 -isFor
+tlt         3962  0.2  0.3 574108 22000 ?        Sl   Jun13   6:28 alacritty
+tlt         3963  0.0  0.0   8396  2220 pts/1    Ss   Jun13   0:00 /bin/bash
+tlt         3975  0.0  0.0 162316  2956 pts/1    S    Jun13   0:02 fish
+tlt         7785  0.2  1.8 3226128 108896 ?      Sl   Jun13   7:52 /usr/lib/firefox/firefox -contentproc -childID 15 -isFor
+tlt         8927  0.1  0.3 511564 21652 ?        Sl   Jun13   5:50 alacritty
+tlt         8928  0.0  0.0   8396  2016 pts/6    Ss   Jun13   0:00 /bin/bash
+tlt         8937  0.0  0.0 235232  2900 pts/6    S+   Jun13   0:00 fish
+tlt         9995  0.7  1.9 3234804 118812 ?      Sl   Jun13  22:06 /usr/lib/firefox/firefox -contentproc -childID 16 -isFor
+tlt        10083  0.1  1.8 3017248 111424 ?      Sl   Jun13   4:14 /usr/lib/firefox/firefox -contentproc -childID 17 -isFor
+tlt        17714  0.0  0.0   7260  1328 ?        S    Jun13   0:00 /bin/bash
+tlt        17717  0.1  0.6 2871820 36384 ?       Sl   Jun13   4:11 telegram-desktop
+tlt        17719  0.0  0.0  11920  2620 ?        S    Jun13   0:03 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/a
+tlt        17726  0.0  0.0 161212  4240 ?        Sl   Jun13   0:26 /usr/lib/at-spi2-registryd --use-gnome-session
+tlt        29339  0.0  0.0 671580  2324 ?        Sl   Jun13   0:01 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/de
+tlt        30180  0.0  0.0 671632  2348 ?        Sl   Jun13   0:01 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/de
+tlt        30674  0.0  0.0 671700  2320 ?        Sl   Jun13   0:01 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/de
+tlt        32199  0.0  0.0 671640  2364 ?        Sl   Jun13   0:01 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/de
+tlt        47335  0.0  0.0  50672  3888 pts/1    S+   Jun14   0:22 vim linux.md
+tlt        47821  0.0  0.0   7260  1296 ?        S    Jun14   0:00 /bin/bash
+tlt        47824  0.5  2.2 34155436 133940 ?     Sl   Jun14   9:10 /opt/google/chrome/chrome
+tlt        47829  0.0  0.0   5500   416 ?        S    Jun14   0:00 cat
+tlt        47830  0.0  0.0   5500   324 ?        S    Jun14   0:00 cat
+tlt        47833  0.0  0.2 33816988 15800 ?      S    Jun14   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sand
+tlt        47834  0.0  0.2 33816988 17764 ?      S    Jun14   0:00 /opt/google/chrome/chrome --type=zygote
+tlt        47835  0.0  0.0 33578456 1368 ?       S    Jun14   0:00 /opt/google/chrome/nacl_helper
+tlt        47839  0.0  0.0 33816988 5632 ?       S    Jun14   0:03 /opt/google/chrome/chrome --type=zygote
+tlt        47862  0.3  0.7 33868804 43460 ?      Sl   Jun14   5:47 /opt/google/chrome/chrome --type=utility --utility-sub-t
+tlt        47873  0.0  0.4 33866548 26512 ?      Sl   Jun14   0:08 /opt/google/chrome/chrome --type=utility --utility-sub-t
+tlt        47931  0.0  1.0 48616712 59996 ?      Sl   Jun14   0:35 /opt/google/chrome/chrome --type=renderer --field-trial-
+tlt        47950  0.6  1.1 42347556 69036 ?      Sl   Jun14  11:22 /opt/google/chrome/chrome --type=renderer --field-trial-
+tlt        47979  0.0  0.6 38125308 39984 ?      Sl   Jun14   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-
+tlt        48235  0.0  0.4 34124604 25584 ?      Sl   Jun14   0:39 /opt/google/chrome/chrome --type=utility --utility-sub-t
+tlt        48363 10.2  2.3 38283648 138668 ?     Sl   Jun14 182:39 /opt/google/chrome/chrome --type=renderer --field-trial-
+tlt        51559  0.0  0.0   7260  1156 ?        S    Jun14   0:00 /bin/bash
+tlt        51562  0.2  1.3 34580332 81716 ?      Sl   Jun14   4:05 /usr/lib/chromium/chromium
+tlt        51567  0.0  0.1 535068 10628 ?        S    Jun14   0:00 /usr/lib/chromium/chromium --type=zygote --no-zygote-san
+tlt        51568  0.0  0.1 535068 11852 ?        S    Jun14   0:00 /usr/lib/chromium/chromium --type=zygote
+tlt        51570  0.0  0.0 535068  3180 ?        S    Jun14   0:00 /usr/lib/chromium/chromium --type=zygote
+tlt        51592  0.2  0.5 34161860 30656 ?      Sl   Jun14   3:52 /usr/lib/chromium/chromium --type=utility --utility-sub-
+tlt        51601  0.0  0.1 34143156 11364 ?      Sl   Jun14   0:02 /usr/lib/chromium/chromium --type=utility --utility-sub-
+tlt        51638  0.0  0.6 48912456 36248 ?      Sl   Jun14   0:17 /usr/lib/chromium/chromium --type=renderer --field-trial
+tlt        51779  4.3  2.2 38721984 133172 ?     Sl   Jun14  73:51 /usr/lib/chromium/chromium --type=renderer --field-trial
+tlt        51809  0.2  0.2 34403372 14896 ?      Sl   Jun14   4:38 /usr/lib/chromium/chromium --type=utility --utility-sub-
+tlt        54719  0.0  2.1 38146596 127768 ?     Sl   Jun14   0:45 /opt/google/chrome/chrome --type=renderer --field-trial-
+tlt        57326  0.0  0.6 38109428 38660 ?      Sl   Jun14   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-
+tlt        70219  0.1  0.3 567236 18640 ?        Sl   Jun14   2:51 alacritty
+tlt        70220  0.0  0.0   8396  2156 pts/4    Ss   Jun14   0:00 /bin/bash
+tlt        70228  0.0  0.0 161352  3004 pts/4    S+   Jun14   0:00 fish
+tlt        85282  0.0  0.0 671704  2248 ?        Sl   Jun14   0:01 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/de
+tlt        98491  0.0  0.0 671708  2428 ?        Sl   00:00   0:01 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/de
+root      101797  0.0  0.0      0     0 ?        I    00:33   0:00 [kworker/1:0-events]
+root      101936  0.0  0.0      0     0 ?        S    10:06   0:00 [irq/127-mei_me]
+root      101937  0.0  0.0      0     0 ?        S    10:06   0:00 [nvidia]
+root      101961  0.0  0.2  14156 13448 ?        S<Ls 10:06   0:04 /usr/bin/atop -w /var/log/atop/atop_20210615 600
+tlt       102055  2.0  1.0 34485980 64516 ?      Sl   10:06   6:23 /usr/lib/chromium/chromium --type=gpu-process --field-tr
+tlt       102070  0.0  0.0 34166160 5696 ?       S    10:06   0:00 /usr/lib/chromium/chromium --type=broker
+tlt       102118  1.4  1.4 34005896 85372 ?      Sl   10:06   4:39 /opt/google/chrome/chrome --type=gpu-process --field-tri
+tlt       102120  0.0  0.1 33882904 8248 ?       S    10:06   0:00 /opt/google/chrome/chrome --type=broker
+tlt       102349  1.3  1.4 4742664 89196 ?       Ssl  10:08   4:19 /opt/visual-studio-code/code --no-sandbox
+tlt       102351  0.0  0.1 188576  9876 ?        S    10:08   0:00 /opt/visual-studio-code/code --type=zygote --no-zygote-s
+tlt       102352  0.0  0.1 188576  9448 ?        S    10:08   0:00 /opt/visual-studio-code/code --type=zygote --no-sandbox
+tlt       102379  5.3  2.1 524788 126880 ?       Sl   10:08  16:37 /opt/visual-studio-code/code --type=gpu-process --field-
+tlt       102385  0.0  0.4 249468 27564 ?        Sl   10:08   0:01 /opt/visual-studio-code/code --type=utility --utility-su
+tlt       102404 12.2  7.0 57279184 421768 ?     Rl   10:08  38:05 /opt/visual-studio-code/code --type=renderer --disable-c
+tlt       102426  1.9  2.2 4601104 136440 ?      Rl   10:08   6:04 /opt/visual-studio-code/code --inspect-port=0 /opt/visua
+tlt       102438  0.3  0.9 38097048 54804 ?      Sl   10:08   0:56 /opt/visual-studio-code/code --type=renderer --disable-c
+tlt       102450  0.0  0.5 4466412 32320 ?       Rl   10:08   0:06 /opt/visual-studio-code/code /opt/visual-studio-code/res
+tlt       102471  0.2  0.3 4492164 23800 ?       Sl   10:08   0:55 /opt/visual-studio-code/code /opt/visual-studio-code/res
+tlt       102525  0.9  1.1 1661352 69204 ?       Sl   10:08   3:05 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/bi
+tlt       102551  0.0  0.3 4428508 19180 ?       Sl   10:08   0:01 /opt/visual-studio-code/code /opt/visual-studio-code/res
+tlt       102772  0.0  0.0 161112  2976 pts/2    Ss+  10:11   0:00 /usr/bin/fish
+tlt       102808  0.4  0.4 4955684 25716 ?       Sl   10:11   1:23 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/bi
+tlt       102844  0.0  0.1 243176  6124 pts/3    Ss   10:11   0:00 /usr/bin/fish
+tlt       103260  0.0  0.1 4955684 6736 ?        Sl   10:14   0:11 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/bi
+tlt       103675  0.0  0.0 169572  3360 pts/5    Ss+  10:17   0:00 /usr/bin/fish
+tlt       104778  0.0  0.7 38110708 46152 ?      Sl   10:39   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-
+root      111191  0.0  0.0      0     0 ?        S    12:06   0:00 [ath9k-hwrng]
+tlt       111270  0.0  0.6 38060852 39800 ?      Sl   12:06   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-t
+tlt       111534  0.0  0.3 38382344 18872 ?      Sl   12:13   0:00 /usr/lib/chromium/chromium --type=renderer --field-trial
+root      111612  0.1  0.0      0     0 ?        D<   12:14   0:16 [kworker/u9:2+i915_flip]
+root      113302  0.0  0.0      0     0 ?        I    13:06   0:00 [kworker/2:1-mm_percpu_wq]
+root      114855  0.0  0.0      0     0 ?        I    13:33   0:00 [kworker/3:1-events]
+tlt       114922  0.8  0.9 4955684 58556 ?       Sl   13:35   0:56 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/bi
+root      115782  0.0  0.0      0     0 ?        I    13:49   0:02 [kworker/u8:3-ext4-rsv-conversion]
+root      116616  0.0  0.0      0     0 ?        I<   14:06   0:00 [kworker/u9:0]
+root      118297  0.0  0.0      0     0 ?        I    14:39   0:00 [kworker/u8:1-phy0]
+root      119073  0.0  0.0      0     0 ?        I    14:53   0:00 [kworker/0:2-events]
+root      119953  0.0  0.0      0     0 ?        I    15:08   0:00 [kworker/2:0-events]
+root      119954  0.0  0.0      0     0 ?        I    15:08   0:00 [kworker/1:1-events]
+root      120136  0.0  0.0      0     0 ?        I    15:11   0:00 [kworker/u8:0-flush-8:0]
+root      120148  0.0  0.0      0     0 ?        I    15:11   0:00 [kworker/3:0-events]
+root      120201  0.0  0.0      0     0 ?        I    15:13   0:00 [kworker/0:1-events]
+root      120543  0.0  0.0      0     0 ?        I    15:15   0:00 [kworker/1:2-events]
+root      120621  0.0  0.0      0     0 ?        I    15:16   0:00 [kworker/2:2]
+root      120696  0.0  0.0      0     0 ?        I    15:17   0:00 [kworker/u8:2-phy0]
+root      120824  0.0  0.0      0     0 ?        I    15:18   0:00 [kworker/0:0-events]
+root      120889  0.0  0.0      0     0 ?        I    15:19   0:00 [kworker/3:2]
+tlt       120965  0.0  0.0   7260  3428 ?        S    15:19   0:00 bash /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4
+tlt       120970  6.7  1.0 956980 60392 ?        Sl   15:19   0:02 /home/tlt/.vscode/extensions/ms-vscode.cpptools-1.4.1/de
+tlt       120987  0.0  0.0   7392  3820 pts/3    S+   15:19   0:00 /bin/sh /tmp/Microsoft-MIEngine-Cmd-5xg10fwq.slp
+tlt       120989  2.8  0.9 424616 56552 pts/3    Sl   15:19   0:01 /usr/bin/gdb --interpreter=mi --tty=/dev/pts/3
+tlt       121002  0.0  0.0  10244  3272 ?        Rs   15:19   0:00 ps aux

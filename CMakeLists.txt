@@ -14,7 +14,7 @@ file(GLOB TARGET_SRC
 	"./src/shell/*.c", "./src/shell/*.h")
 
 # set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pthread")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lrt")
+# set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lrt")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_GNU_SOURCE")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0")
 # set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pedantic")

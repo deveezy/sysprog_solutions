@@ -34,6 +34,10 @@
         "cstring": "c",
         "list": "c",
         "stdio.h": "c",
-        "stdarg.h": "c"
+        "stdarg.h": "c",
+        "parser.h": "c",
+        "shell.h": "c",
+        "assert.h": "c",
+        "string.h": "c"
     },
 }
