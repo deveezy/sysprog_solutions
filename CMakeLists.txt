@@ -10,7 +10,8 @@ set(CMAKE_C_STANDARD 11)
 
 file(GLOB TARGET_SRC 
 	"./src/coro/*.c", "./src/coro/*.h", 
-	"./src/array/*.c", "./src/array/*.h" 
+	"./src/array/*.c", "./src/array/*.h",
+	"./src/fs/*.c", "./src/fs/*.h", 
 	"./src/shell/*.c", "./src/shell/*.h")
 
 # set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pthread")

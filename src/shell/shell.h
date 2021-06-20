@@ -2,8 +2,6 @@
 
 #define MAXARGS 6
 
-typedef unsigned long size_t;
-
 typedef enum CMD_TYPE { CMD_INVALID, CMD_EXEC, CMD_PIPE, CMD_REDIRECT } CMD_TYPE;
 
 typedef enum TOKEN_TYPE { TOKEN_INVALID, TOKEN_LETTER, TOKEN_PIPE, TOKEN_INPUT, TOKEN_OUTPUT } TOKEN_TYPE;
