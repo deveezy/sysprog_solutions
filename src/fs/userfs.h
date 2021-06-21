@@ -53,6 +53,7 @@ typedef enum open_flags {
 typedef enum ufs_error_code {
 	UFS_ERR_NO_ERR = 0,
 	UFS_ERR_NO_FILE,
+	UFS_ERR_NO_FD,
 	UFS_ERR_NO_MEM,
 	UFS_ERR_NOT_IMPLEMENTED,
 	UFS_ERR_NO_PERMISSION
@@ -60,6 +61,8 @@ typedef enum ufs_error_code {
 
 /** Get code of the last error. */
 ufs_error_code ufs_errno();
+
+void print_err_msg(ufs_error_code err_code);
 
 /**
  * Open a file by filename.
