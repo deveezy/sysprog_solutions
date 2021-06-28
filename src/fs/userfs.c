@@ -141,8 +141,8 @@ ufs_open(const char *filename, int flags)
 	++file->refs;
 	fd->file = file; 
 
-	int fdno = file_descriptor_count;
-	file_descriptors[file_descriptor_count++] = fd;
+	int fdno = file_descriptor_count++;
+	file_descriptors[fdno] = fd;
 
 	if (flags & UFS_READ_WRITE) {
 		fd->mode = UFS_READ_WRITE;
@@ -370,27 +370,27 @@ read_data(struct filedesc *const fd, char *buf,
 	return total_read;
 }
 
-int
-main(int argc, const char **argv) 
-{
-	file_descriptors = malloc(sizeof( struct filedesc * ) * file_descriptor_capacity);
-	int fd = ufs_open("demo.txt", UFS_CREATE | UFS_READ_WRITE);
-	int nfd = ufs_open("demo2.txt", UFS_CREATE | UFS_READ_WRITE);
-	ssize_t written = ufs_write(fd, "Hello, world from first file", 
-		sizeof("Hello, world from first file"));
-	size_t size = file_size(fd);
-	int fd2 = ufs_open("demo.txt", UFS_READ_WRITE | UFS_CREATE);
-	int fd3 = ufs_open("demo.txt", UFS_READ_WRITE );
-	int res = ufs_delete("demo.txt");
-	int fd4 = ufs_open("demo.txt", UFS_READ_WRITE | UFS_CREATE);
-	// ufs_close(fd2);
-	ufs_close(fd3);
-	ufs_close(fd);
-	ufs_close(fd4);
-	ufs_close(nfd);
-	// char buf[1024] = { 0 };
-	// size_t read = ufs_read(fd, buf, 10);
+// int
+// main(int argc, const char **argv) 
+// {
+// 	file_descriptors = malloc(sizeof( struct filedesc * ) * file_descriptor_capacity);
+// 	int fd = ufs_open("demo.txt", UFS_CREATE | UFS_READ_WRITE);
+// 	int nfd = ufs_open("demo2.txt", UFS_CREATE | UFS_READ_WRITE);
+// 	ssize_t written = ufs_write(fd, "Hello, world from first file", 
+// 		sizeof("Hello, world from first file"));
+// 	size_t size = file_size(fd);
+// 	int fd2 = ufs_open("demo.txt", UFS_READ_WRITE | UFS_CREATE);
+// 	int fd3 = ufs_open("demo.txt", UFS_READ_WRITE );
+// 	int res = ufs_delete("demo.txt");
+// 	int fd4 = ufs_open("demo.txt", UFS_READ_WRITE | UFS_CREATE);
+// 	// ufs_close(fd2);
+// 	ufs_close(fd3);
+// 	ufs_close(fd);
+// 	ufs_close(fd4);
+// 	ufs_close(nfd);
+// 	// char buf[1024] = { 0 };
+// 	// size_t read = ufs_read(fd, buf, 10);
 
-	free(file_descriptors);
-	return 0;
-}
+// 	free(file_descriptors);
+// 	return 0;
+// }

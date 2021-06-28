@@ -38,6 +38,7 @@
         "parser.h": "c",
         "shell.h": "c",
         "assert.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "thread_pool.h": "c"
     },
 }
